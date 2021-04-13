@@ -1,0 +1,67 @@
+h1 {
+  padding: 20px 0px;
+}
+
+.form__item {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.form__item form {
+  -webkit-box-shadow: 0 3px 3px #ccc;
+          box-shadow: 0 3px 3px #ccc;
+  border-radius: 10px;
+  border: 1px solid #ececec;
+  padding: 30px;
+}
+
+.form__item form .submit__value {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 20px 0px;
+}
+
+.form__item form .submit__value input[type="button"] {
+  padding: 10px 40px;
+  background: #F74C10;
+  color: #fff;
+  border-radius: 10px;
+  outline: none;
+  border: none;
+  text-transform: uppercase;
+}
+
+.form__item input, .form__item textarea {
+  display: block;
+  padding: 10px;
+}
+
+.form__item label {
+  font-weight: 700;
+  text-transform: uppercase;
+  padding: 10px;
+}
+
+.form__item input[type="text"], .form__item textarea {
+  border: 2px solid #F74C10;
+}
+
+.form__item .user__avata {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+}
+
+.form__item .data__item {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.form__item .data__item--content img {
+  width: 100px;
+  height: 100px;
+}
+/*# sourceMappingURL=Register.css.map */
