@@ -5,11 +5,16 @@ h1{
 }
 .form__item{
     justify-content: center;
-    & form{
+    & .form{
       box-shadow: 0 3px 3px #ccc;
       border-radius: 10px;
       border: 1px solid rgb(236, 236, 236);
         padding: 30px;
+        height:700px;
+       
+        & .item{
+            justify-content: center;
+        }
         & .submit__value{
             justify-content: center;
             padding: 20px 0px;

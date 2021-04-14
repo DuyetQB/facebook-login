@@ -13,6 +13,18 @@ export default class DataRender extends React.Component{
         })
         .then(data=>{
              console.log(data);
+             let html =document.createElement("div");
+             html.innerHTML = `
+             
+         <img className="data__image1" alt="" src=${data.avatar}/>
+     <h1 className="data__user1">${data.name}</h1>
+     <h1 className="data__text1">${data.avatar}</h1>
+     <h2 className="data__password1">${data.password}</h2>
+     <p className="data__title1">${data.text}</p>
+             `;
+                
+       let content = document.querySelector(".data__item--content--seconds");
+       content.appendChild(html);
 
         })
         .then(function(data){
@@ -55,7 +67,7 @@ export default class DataRender extends React.Component{
     </div>
     <div className ="row data__item">
        <div className ="col-md-6 data__item--content data__item--content--seconds">
-           {this.getitem}
+         
         </div>
  </div>
 </div>

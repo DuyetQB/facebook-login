@@ -8,22 +8,29 @@ h1 {
           justify-content: center;
 }
 
-.form__item form {
+.form__item .form {
   -webkit-box-shadow: 0 3px 3px #ccc;
           box-shadow: 0 3px 3px #ccc;
   border-radius: 10px;
   border: 1px solid #ececec;
   padding: 30px;
+  height: 700px;
 }
 
-.form__item form .submit__value {
+.form__item .form .item {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.form__item .form .submit__value {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
   padding: 20px 0px;
 }
 
-.form__item form .submit__value input[type="button"] {
+.form__item .form .submit__value input[type="button"] {
   padding: 10px 40px;
   background: #F74C10;
   color: #fff;
@@ -44,7 +51,7 @@ h1 {
   padding: 10px;
 }
 
-.form__item input[type="text"], .form__item textarea {
+.form__item input[type="text"], .form__item input[type="password"], .form__item textarea {
   border: 2px solid #F74C10;
 }
 
@@ -61,7 +68,22 @@ h1 {
 }
 
 .form__item .data__item--content img {
-  width: 100px;
-  height: 100px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.form__item .data__item--seconds {
+  border: 1px solid #000;
+  width: 240px;
+  padding: 20px;
+  right: 0px;
+  -webkit-box-shadow: 0 3px 3px #ccc;
+          box-shadow: 0 3px 3px #ccc;
+  height: 400px;
+}
+
+.user__avata {
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 /*# sourceMappingURL=Register.css.map */
